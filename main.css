@@ -1,4 +1,20 @@
 header {
-    background-color: #007bff;
+    background-color: #e1f5fe;
     
+}
+
+.navbar-nav li {
+    list-style: none;
+}
+
+#section-sobre-nos {
+    background-color: #fff;
+}
+
+#section-promocoes {
+    background-color: #e1f5fe;
+}
+
+#item-lista {
+    list-style: none;
 }
