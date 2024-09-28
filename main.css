@@ -18,3 +18,11 @@ header {
 #item-lista {
     list-style: none;
 }
+
+.carousel img {
+    max-height: 800px;
+}
+
+footer {
+    background-color: #e1f5fe;
+}
