@@ -19,10 +19,62 @@ header {
     list-style: none;
 }
 
-.carousel img {
-    max-height: 800px;
+.carousel-item img {
+    height: 580px;
+    width: 100%;
 }
 
 footer {
     background-color: #e1f5fe;
+}
+
+@media screen and (max-width: 767px) {
+    header ul li {
+        margin-top: 24px;
+        display: flex;
+    }
+
+    .carousel-item img {
+        max-height: 250px;
+    }
+
+    .section-sobre img {
+        margin-bottom: 32px;
+    }
+
+    .tab-pane,
+    .row button {
+        margin-top: 10px;
+    }
+
+    .tab-pane h4,
+    .tab-pane p {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    header button {
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+
+    .carousel-item img {
+        max-height: 400px;
+    }
+
+    .section-sobre img {
+        margin-bottom: 32px;
+    }
+
+    .tab-pane,
+    .row button {
+        margin-top: 10px;
+    }
+
+    .tab-pane h4,
+    .tab-pane p {
+        text-align: center;
+    }
 }
